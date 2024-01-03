@@ -1,0 +1,30 @@
+{
+    "name": "fhta",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "ts-node src/index.ts",
+        "cli": "ts-node src/cli.ts",
+        "format": "prettier --write .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/neeppy/fhta.git"
+    },
+    "author": "Cosmin STOICA",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/neeppy/fhta/issues"
+    },
+    "homepage": "https://github.com/neeppy/fhta#readme",
+    "dependencies": {
+        "fastify": "^4.25.2"
+    },
+    "devDependencies": {
+        "prettier": "^3.1.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}
